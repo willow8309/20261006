@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+W6 Sample 03: Show an Image
+이번 단계: 공통 화면 틀에 img를 넣습니다. 여기부터 assets를 사용합니다.
+사용법: 전체 복사 → 새 메모장 → assets 폴더 옆에 index.html로 저장.
+코드를 외우기보다, 브라우저가 무엇을 하도록 할지 생각하세요.
+-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Show an Image</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 700px;
+      margin: 40px auto;
+      padding: 20px;
+      line-height: 1.6;
+    }
+    button, select {
+      font-size: 18px;
+      padding: 10px 14px;
+      margin-top: 10px;
+      max-width: 100%;
+    }
+    button { cursor: pointer; }
+    img { display: block; width: 100%; height: auto; border-radius: 12px; }
+    figure { margin: 16px 0; }
+    audio { width: 100%; margin-top: 12px; }
+    button:focus-visible { outline: 3px solid #1463ab; outline-offset: 4px; }
+    .note { color: #465363; font-size: 15px; }
+  </style>
+</head>
+<body>
+  <h1>Show an Image</h1>
+  <figure>
+    <!-- [추가] src는 그림 파일의 위치, alt는 그림의 대체 설명입니다. -->
+    <img src="assets/images/picture_01.png" alt="A quiet park with trees, a bench and a winding path.">
+    <figcaption>A quiet park.</figcaption>
+  </figure>
+</body>
+</html>
